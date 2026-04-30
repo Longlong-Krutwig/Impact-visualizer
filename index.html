@@ -486,14 +486,14 @@
     <div class="control-group">
       <div class="slider-row">
         <span class="control-label">Spendenhöhe</span>
-        <span class="slider-amount" id="slider-amount">200 €</span>
+        <span class="slider-amount" id="slider-amount">10 €</span>
       </div>
       <input
         type="range"
         min="0"
         max="100"
         step="0.1"
-        value="50"
+        value="0"
         class="slider"
         id="amount-slider"
         aria-label="Spendenhöhe"
@@ -631,7 +631,7 @@ const GRID_TOTAL = GRID_COLS * GRID_ROWS; // 529
    ------------------------------------------------------------ */
 const state = {
   causeKey: 'animal',
-  amount: 200,
+  amount: 10,
   renderedCount: 0,         // Anzahl aktuell im Grid liegender Icons
   renderedCauseKey: null    // Letzter im Grid gerenderter Bereich
 };
